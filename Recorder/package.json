@@ -1,0 +1,20 @@
+{
+  "name": "Recorder",
+  "version": "1.0.0",
+  "description": "Recorder app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack":"electron-builder --dir",
+    "dist":"electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "build":{
+    "icon": "./assets/icons/icon.png"
+  },
+  "devDependencies": {
+    "electron": "^21.3.0",
+    "electron-builder": "^23.6.0"
+  }
+}
