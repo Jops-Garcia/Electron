@@ -1,1 +1,1 @@
-Simple audio recorder using Electron
+Simple audio recorder using Electron.
